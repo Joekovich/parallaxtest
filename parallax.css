@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    background: url("bg.PNG");
+    background-size: 110%;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.card h1 {
+    font-size: 38px;
+}
+
+.card button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0;
+    background: #221e6f;
+    color: #f9f9f9;
+    font-family: inherit;
+}
